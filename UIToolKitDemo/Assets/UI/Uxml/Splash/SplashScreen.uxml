@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="TopPanelScreen" src="project://database/Assets/UI/Uxml/Home/TopPanelScreen.uxml?fileID=9197481963319205126&amp;guid=6ec8eeb15e838fd4cbcf28bfb948cd3a&amp;type=3#TopPanelScreen" />
+    <Style src="project://database/Assets/UI/Uss/SplashScreen.uss?fileID=7433441132597879392&amp;guid=677f4deb93386264787e4f74a5ad3ffa&amp;type=3#SplashScreen" />
+    <ui:VisualElement name="Maincontainer" class="background" style="flex-direction: column-reverse;">
+        <ui:VisualElement name="LoadingPanel" style="flex-basis: 10%; justify-content: center; padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 20px;">
+            <ui:ProgressBar value="0" title="Loading" name="LoadingProgress" />
+        </ui:VisualElement>
+        <ui:Button text="Button" display-tooltip-when-elided="true" name="dummyButton" style="height: 296px;" />
+    </ui:VisualElement>
+    <ui:Instance template="TopPanelScreen" name="TopPanelScreen" />
+</ui:UXML>

@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="mainContainer" style="width: 150px; height: 100%; flex-direction: column; align-items: flex-start; position: absolute; right: 0; justify-content: flex-start; background-color: rgba(0, 0, 0, 0);">
+        <ui:Button display-tooltip-when-elided="true" name="button_free_rewards" text="Free Rewards" style="width: 120px; height: 120px; background-image: url(&apos;project://database/Assets/UI/Sprite/Common/button_orange.png?fileID=2800000&amp;guid=2bc701b63b63f40e0893a9fabeaa0a78&amp;type=3#button_orange&apos;); white-space: normal; font-size: 20px; -unity-font-style: bold; color: rgba(255, 255, 255, 255);" />
+    </ui:VisualElement>
+</ui:UXML>

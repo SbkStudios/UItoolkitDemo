@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Uss/MenuBar.uss?fileID=7433441132597879392&amp;guid=1af679a46a7781f4c90805724361cee9&amp;type=3#MenuBar" />
+    <ui:VisualElement name="menubar_background" picking-mode="Ignore" class="background" style="flex-direction: row; display: flex; bottom: 0; visibility: visible;">
+        <ui:Button display-tooltip-when-elided="true" name="storeButton" class="menu_button">
+            <ui:IMGUIContainer style="width: 120px; height: 120px; background-image: url(&apos;project://database/Assets/UI/Sprite/Lobby/lobby_menu_shop.png?fileID=2800000&amp;guid=58dd4e92dd1e2427bb5d418a3e58d159&amp;type=3#lobby_menu_shop&apos;);" />
+            <ui:Label text="Store" display-tooltip-when-elided="true" class="button_label" />
+        </ui:Button>
+        <ui:Button display-tooltip-when-elided="true" name="teamsButton" class="menu_button">
+            <ui:IMGUIContainer style="width: 120px; height: 120px; background-image: url(&apos;project://database/Assets/UI/Sprite/Lobby/lobby_menu_inventory.png?fileID=2800000&amp;guid=d756a7bcbb54b496aa528f21c3ddc7af&amp;type=3#lobby_menu_inventory&apos;);" />
+            <ui:Label text="Teams" display-tooltip-when-elided="true" class="button_label" />
+        </ui:Button>
+        <ui:Button display-tooltip-when-elided="true" name="homeScreenButton" class="menu_button_active">
+            <ui:IMGUIContainer style="width: 120px; height: 120px; background-image: url(&apos;project://database/Assets/UI/Sprite/Lobby/lobby_play_icon_battle.png?fileID=2800000&amp;guid=455d317bd36c5444483f77940660f34b&amp;type=3#lobby_play_icon_battle&apos;);" />
+            <ui:Label text="Home" display-tooltip-when-elided="true" class="button_label_active" />
+        </ui:Button>
+        <ui:Button display-tooltip-when-elided="true" name="clanButton" class="menu_button">
+            <ui:IMGUIContainer style="width: 120px; height: 120px; align-items: center; justify-content: center; background-image: url(&apos;project://database/Assets/UI/Sprite/Clan/clan_info_icon_member.png?fileID=2800000&amp;guid=cdb1dd72cb0ea4961be65e38cc22918c&amp;type=3#clan_info_icon_member&apos;);" />
+            <ui:Label text="Clan" display-tooltip-when-elided="true" class="button_label" />
+        </ui:Button>
+        <ui:Button display-tooltip-when-elided="true" name="leaderBoardButton" class="menu_button">
+            <ui:IMGUIContainer style="background-image: url(&apos;project://database/Assets/UI/Sprite/Clan/clan_info_icon_ranking.png?fileID=2800000&amp;guid=9fba6a86432714d318be2f4983f49b79&amp;type=3#clan_info_icon_ranking&apos;); width: 120px; height: 120px;" />
+            <ui:Label text="Leaderboard" display-tooltip-when-elided="true" class="button_label" />
+        </ui:Button>
+    </ui:VisualElement>
+</ui:UXML>

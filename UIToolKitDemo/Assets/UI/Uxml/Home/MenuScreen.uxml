@@ -1,0 +1,26 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="HomeScreen" src="project://database/Assets/UI/Uxml/Home/HomeScreen.uxml?fileID=9197481963319205126&amp;guid=d990b7d10d3ec4248a2c2a8506a9e852&amp;type=3#HomeScreen" />
+    <ui:Template name="StoreScreen" src="project://database/Assets/UI/Uxml/Home/StoreScreen.uxml?fileID=9197481963319205126&amp;guid=4375dd57a77bedd4ba53fefdb6b03641&amp;type=3#StoreScreen" />
+    <ui:Template name="TeamsScreen" src="project://database/Assets/UI/Uxml/Home/TeamsScreen.uxml?fileID=9197481963319205126&amp;guid=f54b0dfb10ca2554bb0332d7ad4041e7&amp;type=3#TeamsScreen" />
+    <ui:Template name="ClanScreen" src="project://database/Assets/UI/Uxml/Home/ClanScreen.uxml?fileID=9197481963319205126&amp;guid=c3de582eeb1c5c04bbfdcba43169e40f&amp;type=3#ClanScreen" />
+    <ui:Template name="LeaderboardScreen" src="project://database/Assets/UI/Uxml/Home/LeaderboardScreen.uxml?fileID=9197481963319205126&amp;guid=70bde9fe2488bc541a95309de708e39b&amp;type=3#LeaderboardScreen" />
+    <ui:Template name="MenuBarScreen" src="project://database/Assets/UI/Uxml/Home/MenuBarScreen.uxml?fileID=9197481963319205126&amp;guid=715cb9f6eda2583448aeb00e87783ee4&amp;type=3#MenuBarScreen" />
+    <ui:Template name="TopPanelScreen" src="project://database/Assets/UI/Uxml/Home/TopPanelScreen.uxml?fileID=9197481963319205126&amp;guid=6ec8eeb15e838fd4cbcf28bfb948cd3a&amp;type=3#TopPanelScreen" />
+    <ui:Template name="RightPanelScreen" src="project://database/Assets/UI/Uxml/Home/RightPanelScreen.uxml?fileID=9197481963319205126&amp;guid=3d46c2e6f71615b42985b6bd14ae9856&amp;type=3#RightPanelScreen" />
+    <ui:Template name="ProfileScreen" src="project://database/Assets/UI/Uxml/Home/ProfileScreen.uxml?fileID=9197481963319205126&amp;guid=c4099a35efec00549a121a68e823dc2d&amp;type=3#ProfileScreen" />
+    <ui:Template name="SettingsScreen" src="project://database/Assets/UI/Uxml/Home/SettingsScreen.uxml?fileID=9197481963319205126&amp;guid=755ccff0605312c459e59d71900728e7&amp;type=3#SettingsScreen" />
+    <ui:Template name="FreeRewardsScreen" src="project://database/Assets/UI/Uxml/Home/FreeRewardsScreen.uxml?fileID=9197481963319205126&amp;guid=40a416826287b964c9ceb2733199c04d&amp;type=3#FreeRewardsScreen" />
+    <ui:Template name="CanRequirementScreen" src="project://database/Assets/UI/Uxml/Home/ClanRequirementScreen.uxml?fileID=9197481963319205126&amp;guid=3174139037d4960418c1110357beb9df&amp;type=3#ClanRequirementScreen" />
+    <ui:Instance template="HomeScreen" name="HomeScreen" style="width: 100%; height: 100%; display: flex; position: absolute;" />
+    <ui:Instance template="StoreScreen" name="StoreScreen" style="width: 100%; height: 100%; display: none; position: absolute;" />
+    <ui:Instance template="TeamsScreen" name="TeamsScreen" style="width: 100%; height: 100%; display: none; position: absolute;" />
+    <ui:Instance template="ClanScreen" name="ClanScreen" style="width: 100%; height: 100%; display: none; position: absolute;" />
+    <ui:Instance template="LeaderboardScreen" name="LeaderboardScreen" style="width: 100%; height: 100%; display: none; position: absolute;" />
+    <ui:Instance template="MenuBarScreen" name="MenuBar" picking-mode="Ignore" style="width: 100%; height: 254px; bottom: 0; position: absolute;" />
+    <ui:Instance template="TopPanelScreen" name="TopPanelScreen" picking-mode="Ignore" style="display: flex; width: 100%; height: 150px; position: absolute; top: 0;" />
+    <ui:Instance template="RightPanelScreen" name="RightPanelScreen" style="position: absolute; left: auto; right: 0; width: 150px; height: 70%; justify-content: center; align-items: center; top: 8%; bottom: 15%; display: none;" />
+    <ui:Instance template="ProfileScreen" name="ProfileScreen" style="width: 100%; height: 100%; display: none;" />
+    <ui:Instance template="SettingsScreen" name="SettingsScreen" style="width: 100%; height: 100%; display: none; flex-grow: 0;" />
+    <ui:Instance template="FreeRewardsScreen" name="FreeRewardsScreen" style="width: 100%; height: 100%; display: none;" />
+    <ui:Instance template="CanRequirementScreen" name="ClanRequirementScreen" style="flex-grow: 1; width: 100%; height: 100%; display: none;" />
+</ui:UXML>
